@@ -9,7 +9,7 @@
     "test": "ng test",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings",
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify",
+    "deploy": "npx wrangler pages deploy dist/my-insurance-bot/browser --project-name=my-insurance-bot",
     "serve:ssr:my-insurance-bot": "node dist/my-insurance-bot/server/server.mjs",
     "lint": "eslint . --ext .ts,.js,.html",
     "prettier:check": "prettier --check .",
