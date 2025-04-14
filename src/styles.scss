@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'primeicons/primeicons.css';
+@import 'assets/scss/main.scss';
+
+:root {
+  font-family: 'Nimbus-sans', Tahoma, sans-serif;
+  --font-family: 'Nimbus-sans', Tahoma, sans-serif;
+  --buttonBg: #0a1a29;
+  --buttonHoverBg: #00fc8f;
+  --buttonTextColor: #00fc8f;
+  --buttonActiveBgColor: #03a15e;
+  --buttonActiveBorderColor: #03a15e;
+  --tabActiveBg: #00cc7d;
+  --tabFontColor: #0a1a29;
+  --tabActiveStandardBg: #f3f4f5;
+  --tabOutline: #00cc7d;
+  --tabActiveOutline: #ced1d4;
+  --standardTabOutline: #03a15e;
+  --tabActiveDynamicBg: #00cc7d;
+  --topBannerBg: #ffffff;
+  --dropDownMenuBg: #ffffff;
+  --dropDownMenuHover: #e7e8ea;
+  --dropdownFontColor: #0a1a29;
+  --menuBg: #848c94;
+  --menuHoverBg: #ced1d4;
+  --sideBarFontColor: #0a1a29;
+  --sideBarTabColor: #ffffff;
+  --sideBarActiveFontColor: #03a15e;
+  --sideBarLogoFontColor: #0a1a29;
+  --sideBarLogoBgColor: #bbf7d0;
+  --sideBarLogoActiveBgColor: #03a15e;
+  --sideBarLogoActiveFontColor: #ffffff;
+  --sideBarMenuBgColor: #ffffff;
+  --sideBarMenuHoverColor: #e7e8ea;
+  --grey-0: #f7f7fa;
+  --grey-5: #ededf0;
+  --grey-10: #e6e8e9;
+  --grey-20: #ced1d4;
+  --grey-30: #b5babe;
+  --grey-40: #9da3a9;
+  --grey-50: #848c94;
+  --grey-60: #6c767f;
+  --grey-70: #535e69;
+  --grey-80: #3b4854;
+  --grey-90: #22303e;
+  --grey-100: #0a1a29;
+  --content-padding: 1.125rem;
+  --inline-spacing: 0.5rem;
+  --surface-0: #ffffff;
+  --surface-overlay: #18181b;
+  --surface-border: #27272a;
+  --surface-hover: rgba(255, 255, 255, 0.03);
+  color-scheme: light;
+}
+
+body {
+  margin: unset;
+}

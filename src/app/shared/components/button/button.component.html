@@ -1,0 +1,10 @@
+<div class="button-wrapper">
+  <p-button
+    [label]="label()"
+    [disabled]="disabled()"
+    [rounded]="rounded()"
+    [loading]="loading()"
+    [style]="{ height: height(), 'min-width': minWidth() }"
+    (onClick)="handleButtonClick($event)"
+  />
+</div>

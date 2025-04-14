@@ -1,0 +1,26 @@
+<div class="login-wrapper">
+  <div class="left-layout">
+    <img class="left-layout__img" [src]="layoutImageSrc" alt="preview-image" />
+  </div>
+  <div class="right-layout">
+    <div class="right-layout__container">
+      <div class="right-layout__container-header">
+        <h3>Log In</h3>
+        <p>Enter your phone-number and password here</p>
+      </div>
+
+      <!-- Form Starts Here -->
+      <div [formGroup]="loginForm">
+        <p>Phone Number:</p>
+        <app-shared-input controlName="name" [enablePhoneValidation]="true" />
+        <p>Password:</p>
+        <app-shared-input controlName="password" />
+      </div>
+      <!-- Form Ends Here -->
+
+      <div class="right-layout__container-button">
+        <app-shared-button label="Submit" (onClick)="handleLoginSubmit()" height="100%" minWidth="100%" />
+      </div>
+    </div>
+  </div>
+</div>

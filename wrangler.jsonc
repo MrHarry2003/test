@@ -1,0 +1,5 @@
+{
+  "name": "my-insurance-bot",
+  "compatibility_date": "2025-04-14",
+  "main": "src/main.ts",
+}

@@ -1,0 +1,38 @@
+@import 'main';
+
+.login-wrapper {
+  @include flex;
+  height: 100vh;
+
+  .left-layout {
+    flex-basis: 32%;
+
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .right-layout {
+    flex-basis: 68%;
+    @include flex(row, center, center);
+    padding-bottom: 60px;
+
+    &__container {
+      flex-basis: 40%;
+      min-width: 400px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+
+      &-header {
+        text-align: center;
+      }
+
+      &-button {
+        padding: 20px;
+      }
+    }
+  }
+}

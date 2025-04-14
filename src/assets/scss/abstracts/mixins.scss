@@ -1,0 +1,79 @@
+@mixin flex($direction: row, $justify: null, $align: null, $wrap: null, $gap: null) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+  gap: $gap;
+}
+
+@mixin truncateText($overflow: ellipsis) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: $overflow; // values are: clip, ellipsis, or a string
+}
+
+/* Generic proposed column Structure Start */
+@mixin flexi-column() {
+  display: grid;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 35px;
+}
+
+@mixin grid-column($columns) {
+  @if $columns ==4 {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  @if $columns ==3 {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  @if $columns ==2 {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  @if $columns ==2.5 {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  }
+
+  @if $columns ==1.5 {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  }
+
+  @if $columns ==1 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @if $columns ==0 {
+    grid-template-columns: auto;
+  }
+}
+
+@mixin custom-scroll {
+  padding-right: 5px;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f2f0ee;
+    border-radius: 5px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #9da3a9;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #0a1a29;
+    border-radius: 5px;
+  }
+}

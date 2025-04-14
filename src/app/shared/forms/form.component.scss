@@ -1,0 +1,14 @@
+.form-wrapper {
+  display: flex;
+  padding-bottom: 10px;
+
+  &__label {
+    flex-basis: 20%;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &__control {
+    flex-basis: 80%;
+  }
+}
