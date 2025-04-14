@@ -3,7 +3,7 @@
     "command": "ng build",
     "upload": {
       "format": "directory",
-      "dir": "dist/my-insurance-bot/server"
+      "dir": "dist/my-insurance-bot/browser"
     }
   }
 }
