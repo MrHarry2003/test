@@ -1,9 +1,9 @@
 {
+  "account_id": "166014447",
+  "project_name": "test",
+  "pages_build_output_dir": "dist/my-insurance-bot",
   "build": {
-    "command": "ng build",
-    "upload": {
-      "format": "directory",
-      "dir": "dist/my-insurance-bot/browser"
-    }
-  }
+    "command": "npm run build"
+  },
+  "commit_dirty": true
 }
