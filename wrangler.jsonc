@@ -1,10 +1,9 @@
 {
-  "name": "my-insurance-bot",
-  "type": "javascript",
-  "main": "dist/my-insurance-bot/server/server.mjs",
-  "env": {
-    "production": {
-      "pages_build_output_dir": "./dist/my-insurance-bot"
+  "build": {
+    "command": "ng build",
+    "upload": {
+      "format": "directory",
+      "dir": "dist/my-insurance-bot/browser"
     }
   }
 }
