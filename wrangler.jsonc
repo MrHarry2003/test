@@ -1,6 +1,7 @@
 {
   "build": {
     "command": "ng build",
+      "main": "src/main.ts",
     "upload": {
       "format": "directory",
       "dir": "dist/my-insurance-bot/browser"
