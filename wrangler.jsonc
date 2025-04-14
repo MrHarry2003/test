@@ -1,5 +1,10 @@
 {
   "name": "my-insurance-bot",
-  "compatibility_date": "2025-04-14",
-  "main": "src/main.ts"
+  "type": "javascript",
+  "main": "dist/my-insurance-bot/server/server.mjs",
+  "env": {
+    "production": {
+      "pages_build_output_dir": "./dist/my-insurance-bot"
+    }
+  }
 }
