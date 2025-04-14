@@ -1,9 +1,4 @@
 {
-  "account_id": "166014447",
-  "project_name": "test",
-  "pages_build_output_dir": "dist/my-insurance-bot",
-  "build": {
-    "command": "npm run build"
-  },
-  "commit_dirty": true
+  "name": "my‑insurance‑bot",
+  "pages_build_output_dir": "dist/my‑insurance‑bot"
 }
