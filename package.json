@@ -80,5 +80,8 @@
     "*.{json,css,scss,less,md,ts}": [
       "npm run prettier:fix"
     ]
-  }
+  },
+  "engines": {
+  "node": ">=18.19.0"
+}
 }
